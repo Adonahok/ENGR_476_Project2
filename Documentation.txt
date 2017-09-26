@@ -1,0 +1,15 @@
+This code is used to detect a flag of
+01111110
+then store information from keyboard and display it on screen, until the flag 
+01111110
+is seen again.
+
+The algorithm used will be to store the last 8 inputs into an array. 
+After each time an input is pushed and stored, the temporary array will be 
+compared to the flag array 01111110.
+If they match, make an boolean flag true and run the code displaying all 
+inputs pushed. 
+When every input is pushed it is still inputed into the temporary array to see
+if it matches the flag array of 01111110.
+If matched, it will change the boolean flag to false and run the code as before.
+Pushing inputs into a temporary array and waiting until it detects a flag input.
